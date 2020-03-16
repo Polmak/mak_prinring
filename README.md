@@ -52,7 +52,9 @@ PRINT: fan duct
 + polish titanium heatbreak with GOI
 + extend cables and add connectors
 + direct driver installation
-+ 
++ flow rate calibration
++ speed / jerks / akselerations calibration
++ update marlin configuration
 ---
 ## Tridemak PRO v.2.5 (display and sensor upgrade)
 
@@ -92,7 +94,3 @@ PRINT: btt relay cover
 + install relay autoshutdown
 + add energetic steel sheet
 + add magnetic builtak option
----
-## Calibration
-+ flow rate calibration
-+ speed / jerks / akselerations

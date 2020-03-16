@@ -28,7 +28,7 @@
 /**
  * Marlin release version identifier
  */
-//#define SHORT_BUILD_VERSION "2.0.x"
+#define SHORT_BUILD_VERSION "Marlin 2.0"
 
 /**
  * Verbose version identifier which should contain a reference to the location
@@ -65,7 +65,7 @@
  * The WEBSITE_URL is the location where users can get more information such as
  * documentation about a specific Marlin release.
  */
-//#define WEBSITE_URL "http://marlinfw.org"
+#define WEBSITE_URL "by Pavel Makretski"
 
 /**
  * Set the vendor info the serial USB interface, if changable

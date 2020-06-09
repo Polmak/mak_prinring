@@ -6,7 +6,7 @@ Hi! My name is Pavel Makretski. And this is my upgrading Creality Ender 3 Pro op
 ---
 ## Tridemak PRO v.2.0 (new board installation and start draft printing)
 
-+ build marlin firmware
++ <s>build marlin firmware</s>
 + install new thermistor
 + install powerfull mosfet
 + tin and crimp all wires, check endstops

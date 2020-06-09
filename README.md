@@ -7,10 +7,10 @@ Hi! My name is Pavel Makretski. And this is my upgrading Creality Ender 3 Pro op
 ## Tridemak PRO v.2.0 (new board installation and start draft printing)
 
 + <s>build marlin firmware</s>
-+ install new thermistor
-+ install powerfull mosfet
-+ tin and crimp all wires, check endstops
-+ remove hotbed thermal protection
++ <s>install new thermistor</s>
++ <s>install powerfull mosfet</s>
++ <s>tin and crimp all wires, check endstops</s>
++ <s>remove old and reinstall new hotbed thermal protection</s>
 + PID and stepper motor voltage calibration
 + leave the control board open
 ---

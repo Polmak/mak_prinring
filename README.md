@@ -11,8 +11,8 @@ Hi! My name is Pavel Makretski. And this is my upgrading Creality Ender 3 Pro op
 + <s>install powerfull mosfet</s>
 + <s>tin and crimp all wires, check endstops</s>
 + <s>remove old and reinstall new hotbed thermal protection</s>
-+ PID and stepper motor voltage calibration
-+ leave the control board open
++ <s>PID and stepper motor voltage calibration</s>
++ <s>leave the control board open</s>
 ---
 ## Tridemak PRO v.2.1 (titan extruder upgrade)
 
@@ -36,13 +36,10 @@ PRINT: new ridgepoles, motors holder, second z plate, psu holder
 ---
 ## Tridemak PRO v.2.3 (hotbed minor improvements)
 
-NEED: new thermal protection 
-
-PRINT: hotbed drag chain
-+ install new thermal protection pad
-+ change wheels
-+ add belt protection
-+ add drag chain
++ <s>install new thermal protection pad</s>
++ <s>change wheels</s>
++ <s>add belt protection</s>
++ <s>add drag chain</s>
 ---
 ## Tridemak PRO v.2.4 (upgrade to titan aero)
 

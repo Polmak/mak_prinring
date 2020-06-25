@@ -1374,7 +1374,7 @@
   #define BABYSTEP_MULTIPLICATOR_Z  1       // Babysteps are very small. Increase for faster motion.
   #define BABYSTEP_MULTIPLICATOR_XY 1
 
-  #define DOUBLECLICK_FOR_Z_BABYSTEPPING    // Double-click on the Status Screen for Z Babystepping.
+  //#define DOUBLECLICK_FOR_Z_BABYSTEPPING    // Double-click on the Status Screen for Z Babystepping.
   #if ENABLED(DOUBLECLICK_FOR_Z_BABYSTEPPING)
     #define DOUBLECLICK_MAX_INTERVAL 1250   // Maximum interval between clicks, in milliseconds.
                                             // Note: Extra time may be added to mitigate controller latency.
@@ -1488,7 +1488,7 @@
 //
 // G2/G3 Arc Support
 //
-//#define ARC_SUPPORT               // Disable this feature to save ~3226 bytes
+#define ARC_SUPPORT               // Disable this feature to save ~3226 bytes
 #if ENABLED(ARC_SUPPORT)
   #define MM_PER_ARC_SEGMENT  1   // Length of each arc segment
   #define MIN_ARC_SEGMENTS   24   // Minimum number of segments in a complete circle
@@ -1777,7 +1777,7 @@
 #if HAS_DRIVER(TMC26X)
 
   #if AXIS_DRIVER_TYPE_X(TMC26X)
-    #define X_MAX_CURRENT     1000  // (mA)
+    #define X_MAX_CURRENT     1200  // (mA)
     #define X_SENSE_RESISTOR    91  // (mOhms)
     #define X_MICROSTEPS        16  // Number of microsteps
   #endif
@@ -1789,7 +1789,7 @@
   #endif
 
   #if AXIS_DRIVER_TYPE_Y(TMC26X)
-    #define Y_MAX_CURRENT     1000
+    #define Y_MAX_CURRENT     1200
     #define Y_SENSE_RESISTOR    91
     #define Y_MICROSTEPS        16
   #endif
@@ -1801,7 +1801,7 @@
   #endif
 
   #if AXIS_DRIVER_TYPE_Z(TMC26X)
-    #define Z_MAX_CURRENT     1000
+    #define Z_MAX_CURRENT     1200
     #define Z_SENSE_RESISTOR    91
     #define Z_MICROSTEPS        16
   #endif
@@ -1819,7 +1819,7 @@
   #endif
 
   #if AXIS_DRIVER_TYPE_E0(TMC26X)
-    #define E0_MAX_CURRENT    1000
+    #define E0_MAX_CURRENT    1200
     #define E0_SENSE_RESISTOR   91
     #define E0_MICROSTEPS       16
   #endif
@@ -1880,10 +1880,10 @@
   #define INTERPOLATE       true  // Interpolate X/Y/Z_MICROSTEPS to 256
 
   #if AXIS_IS_TMC(X)
-    #define X_CURRENT       580        // (mA) RMS current. Multiply by 1.414 for peak current.
-    #define X_CURRENT_HOME  X_CURRENT  // (mA) RMS current for sensorless homing
-    #define X_MICROSTEPS     16    // 0..256
-    #define X_RSENSE          0.11
+    #define X_CURRENT        550        // (mA) RMS current. Multiply by 1.414 for peak current.
+    #define X_CURRENT_HOME   X_CURRENT  // (mA) RMS current for sensorless homing
+    #define X_MICROSTEPS     32    // 0..256
+    #define X_RSENSE         0.11
     #define X_CHAIN_POS      -1    // <=0 : Not chained. 1 : MCU MOSI connected. 2 : Next in chain, ...
   #endif
 
@@ -1896,10 +1896,10 @@
   #endif
 
   #if AXIS_IS_TMC(Y)
-    #define Y_CURRENT       580
-    #define Y_CURRENT_HOME  Y_CURRENT
-    #define Y_MICROSTEPS     16
-    #define Y_RSENSE          0.11
+    #define Y_CURRENT        550
+    #define Y_CURRENT_HOME   Y_CURRENT
+    #define Y_MICROSTEPS     32
+    #define Y_RSENSE         0.11
     #define Y_CHAIN_POS      -1
   #endif
 
@@ -1912,10 +1912,10 @@
   #endif
 
   #if AXIS_IS_TMC(Z)
-    #define Z_CURRENT       580
-    #define Z_CURRENT_HOME  Z_CURRENT
-    #define Z_MICROSTEPS     16
-    #define Z_RSENSE          0.11
+    #define Z_CURRENT        550
+    #define Z_CURRENT_HOME   Z_CURRENT
+    #define Z_MICROSTEPS     32
+    #define Z_RSENSE         0.11
     #define Z_CHAIN_POS      -1
   #endif
 
@@ -1936,9 +1936,9 @@
   #endif
 
   #if AXIS_IS_TMC(E0)
-    #define E0_CURRENT      650
+    #define E0_CURRENT       700
     #define E0_MICROSTEPS    16
-    #define E0_RSENSE         0.11
+    #define E0_RSENSE        0.11
     #define E0_CHAIN_POS     -1
   #endif
 
@@ -2092,10 +2092,10 @@
    */
   #define HYBRID_THRESHOLD
 
-  #define X_HYBRID_THRESHOLD     100  // [mm/s]
-  #define X2_HYBRID_THRESHOLD    100
-  #define Y_HYBRID_THRESHOLD     100
-  #define Y2_HYBRID_THRESHOLD    100
+  #define X_HYBRID_THRESHOLD     200  // [mm/s]
+  #define X2_HYBRID_THRESHOLD    200
+  #define Y_HYBRID_THRESHOLD     200
+  #define Y2_HYBRID_THRESHOLD    200
   #define Z_HYBRID_THRESHOLD     200
   #define Z2_HYBRID_THRESHOLD      3
   #define Z3_HYBRID_THRESHOLD      3

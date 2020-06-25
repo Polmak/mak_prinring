@@ -89,5 +89,5 @@ NEED: bigtreetech parts
 PRINT: btt relay cover
 + install wifi module
 + install relay autoshutdown
-+ add energetic steel sheet
++ <s>add energetic steel sheet</s>
 + add magnetic builtak option

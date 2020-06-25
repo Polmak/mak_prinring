@@ -4,7 +4,7 @@
 Hi! My name is Pavel Makretski. And this is my upgrading Creality Ender 3 Pro open-source project.
 
 ---
-## Tridemak PRO v.2.0 (new board installation and start draft printing)
+## <s>Tridemak PRO v.2.0 (new board installation and start draft printing)</s>
 
 + <s>build marlin firmware</s>
 + <s>install new thermistor</s>
@@ -34,7 +34,7 @@ PRINT: new ridgepoles, motors holder, second z plate, psu holder
 + edit marlin according new stepper motors
 + move the mean-well power supply
 ---
-## Tridemak PRO v.2.3 (hotbed minor improvements)
+## <s>Tridemak PRO v.2.3 (hotbed minor improvements)</s>
 
 + <s>install new thermal protection pad</s>
 + <s>change wheels</s>
